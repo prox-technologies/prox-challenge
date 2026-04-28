@@ -1,0 +1,32 @@
+[
+  {
+    "id": "duty-mig-200-240",
+    "query": "duty cycle MIG welding 200A 240V",
+    "must_include": ["25%", "200"],
+    "filter_source": "owner-manual"
+  },
+  {
+    "id": "tig-ground-positive",
+    "query": "TIG ground clamp which socket positive negative",
+    "must_include": ["positive", "ground"],
+    "filter_source": "owner-manual"
+  },
+  {
+    "id": "stick-polarity",
+    "query": "stick welding electrode holder socket positive or negative",
+    "must_include": ["positive", "electrode"],
+    "filter_source": "owner-manual"
+  },
+  {
+    "id": "porosity-flux",
+    "query": "flux cored porosity causes troubleshooting",
+    "must_include": ["polarity", "gas"],
+    "filter_source": "owner-manual"
+  },
+  {
+    "id": "wire-speed-range",
+    "query": "wire speed IPM range MIG",
+    "must_include": ["500", "50"],
+    "filter_source": "owner-manual"
+  }
+]
